@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>drug agency system</title>
+  <link rel="stylesheet" href="res/fontawesome/css/all.css">
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-dark border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading text-white">Drug Agency System </div>
+      <div class="list-group list-group-flush">
+        <a href="index.html" class="list-group-item list-group-item-action bg-dark text-white"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+        <a href="drug.html" class="list-group-item list-group-item-action bg-dark text-white"><i class="fas fa-cart-plus"></i> Drugs</a>
+        <a href="company.html" class="list-group-item list-group-item-action bg-dark text-white"><i class="fas fa-users"></i> Company</a>
+        <a href="search.html" class="list-group-item list-group-item-action bg-dark text-white"><i class="fas fa-address-card"></i> Search</a>
+        <a href="file.html" class="list-group-item list-group-item-action bg-dark text-white"> <i class="fas fa-users"></i> File Report</a>
+        <!-- <a href="#" class="list-group-item list-group-item-action bg-light">Status</a> -->
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark border-bottom">
+        <button class="btn btn-primary" id="menu-toggle">Dashbaord</button>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+
+      <div class="container-fluid text-center">
+        <h1 class="mt-4 font-weight-bold mb-4">LIST OF COMPANIES</h1>
+      </div>
+      <div class="container">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Names Of Compaines</th>
+              <th scope="col">Active Years</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Pzcussons Nigeria Plc.</td>
+              <td>12 Years</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Stride Vital Nig. Limited</td>
+              <td>9 Years</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Swiss Pharma Nigeria Limited</td>
+              <td>10 Years</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Unicure Pharmaceutical Limited</td>
+              <td>6 Years</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>Vadis Pharmaceutical Ind. Ltd.</td>
+              <td>8 Years</td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>Vitabiotics (Nig.) Limited</td>
+              <td>11 Years</td>
+            </tr>
+            <tr>
+              <th scope="row">7</th>
+              <td>Vital Medix Limited</td>
+              <td>9 Years</td>
+            </tr>
+            <tr>
+              <th scope="row">8</th>
+              <td>Vitaphos Laboraroties Nig. Limited</td>
+              <td>5 Years</td>
+            </tr>
+            <tr>
+              <th scope="row">9</th>
+              <td>Zunamediks Pharm Limited</td>
+              <td>12 Years</td>
+            </tr>
+            <tr>
+              <th scope="row">10</th>
+              <td>Therapeutic Laboratories Nigeria Limited</td>
+              <td>6 Years</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+
+    </div>
+  </div>
+    <!-- /#page-content-wrapper -->
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>

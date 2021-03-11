@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>drug agency system</title>
+  <link rel="stylesheet" href="res/fontawesome/css/all.css">
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-dark border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading text-white">Drug Agency System </div>
+      <div class="list-group list-group-flush">
+        <a href="index.html" class="list-group-item list-group-item-action bg-dark text-white"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+        <a href="drug.html" class="list-group-item list-group-item-action bg-dark text-white"><i class="fas fa-cart-plus"></i> Drugs</a>
+        <a href="company.html" class="list-group-item list-group-item-action bg-dark text-white"><i class="fas fa-users"></i> Company</a>
+        <a href="search.html" class="list-group-item list-group-item-action bg-dark text-white"><i class="fas fa-address-card"></i> Search</a>
+        <a href="file.html" class="list-group-item list-group-item-action bg-dark text-white"> <i class="fas fa-users"></i> File Report</a>
+        <!-- <a href="#" class="list-group-item list-group-item-action bg-light">Status</a> -->
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark border-bottom">
+        <button class="btn btn-primary" id="menu-toggle">Dashbaord</button>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+
+      <div class="container-fluid text-center">
+        <h1 class="mt-4 font-weight-bold">DRUG AGENCY SYSTEM</h1>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 mt-4">
+             <div class="card text-center shadow">
+              <div class="card-body">
+                <a href="drug.html"><i class="fas fa-cart-plus font"></a></i>
+                <p class="card-text font-weight-bold">DRUGS</p>
+              </div>
+          </div>
+          </div>
+          <div class="col-sm-4 mt-4">
+            <div class="card shadow">
+              <div class="card-body text-center">
+                <a href="company.html"><i class="fas fa-address-card font"></a></i>
+                <p class="card-text  font-weight-bold">COMPANY</p>
+              </div>
+          </div>
+          </div>
+          <div class="col-sm-4 mt-4">
+            <div class="card shadow">
+              <div class="card-body text-center">
+                <a href="#"><i class="fas fa-users font"></a></i>
+                <p class="card-text  font-weight-bold">USERS</p>
+              </div>
+          </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 mt-4">
+             <div class="card text-center">
+              <div class="card-body shadow">
+                <a href="file.html"><i class="fas fa-users font"></a></i>
+                <p class="card-text  font-weight-bold">FILE REPORT</p>
+              </div>
+          </div>
+          </div>
+          <div class="col-sm-4 mt-4">
+            <div class="card shadow">
+              <div class="card-body text-center ">
+                <a href="search.html"><i class="fas fa-search font"></a></i>
+                <p class="card-text  font-weight-bold">SEARCH</p>
+              </div>
+          </div>
+          </div>
+          <div class="col-sm-4 mt-4">
+            <div class="card shadow">
+              <div class="card-body text-center">
+                <i class="fas fa-power-off font"></i>
+                <p class="card-text  font-weight-bold">LOGOUT</p>
+              </div>
+          </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 mt-5">
+             <div class="card w-100 shadow">
+                <div class="card-body text-center">
+                  <li class="nav-item dropdown text-center">
+                    <a class="nav-link  ml-sm-3 dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="fas fa-plus-square fon"></i> ADD DRUGS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <form class="container mt-5 text-center ">
+                        <div class="row mb-3 text-center">
+                          <label for="inputname" class="col-sm-2 col-form-label d-flex">Drug Name:</label>
+                          <div class="col-sm-10">
+                            <input type="input" class="form-control w-50" id="inputname">
+                          </div>
+                        </div>
+                        <div class="row mb-3">
+                          <label for="input" class="col-sm-2 col-form-label d-flex">NAFDAC NO:</label>
+                          <div class="col-sm-10">
+                            <input type="input" class="form-control w-50" id="input">
+                          </div>
+                        </div>
+                        <div class="row mb-3">
+                          <label for="input" class="col-sm-2 col-form-label d-flex">Trade Mark:</label>
+                          <div class="col-sm-10">
+                            <input type="input" class="form-control w-50" id="input">
+                          </div>
+                        </div>
+                        <div class="row mb-3">
+                          <label for="input" class="col-sm-2 col-form-label d-flex">Company: </label>
+                          <div class="col-sm-10">
+                            <input type="input" class="form-control w-50" id="input">
+                          </div>
+                        </div>
+                        <div class="row mb-3">
+                          <label for="input" class="col-sm-2 col-form-label d-flex">Product State:</label>
+                          <div class="col-sm-10">
+                            <input type="input" class="form-control w-50" id="input">
+                          </div>
+                        </div>
+                        <div class="row mb-3">
+                          <label for="input" class="col-sm-2 col-form-label d-flex">Product Case:</label>
+                          <div class="col-sm-10">
+                            <input type="input" class="form-control w-50" id="input">
+                          </div>
+                        </div>
+                        <div class="row mb-3">
+                          <label for="input" class="col-sm-2 col-form-label d-flex">Product Expiration:</label>
+                          <div class="col-sm-10">
+                            <input type="input" class="form-control w-50" id="input">
+                          </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-5">Save</button>
+                      </form>
+                    </div>
+                  </li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>
